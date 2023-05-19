@@ -6,7 +6,7 @@ import axios from 'axios';
 import './Payment.css'; // Import your CSS file for styling
 
 const Payment = () => {
-  const KEY = "pk_test_51N9IDbIkwxyvGO5pWcncQAF8xQ7S2uk2L9t47jq9r9hmFomf5HG1NKa37TwjS2JzjZczGZYPQuomkvk6wlzQHMq8002PhhVka0";
+  const KEY = "api ekle buraya";
 
   const [stripeToken, setStripeToken] = useState(null);
   const onToken = (token) => {
